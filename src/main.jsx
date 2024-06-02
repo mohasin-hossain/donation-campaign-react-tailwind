@@ -7,6 +7,9 @@ import "./index.css";
 import Root from "./components/Root/Root";
 import NotFound from "./components/NotFound/NotFound";
 import Home from "./components/Home/Home";
+import MyDonation from "./components/MyDonation/MyDonation";
+import DonationDetails from "./components/DonationDetails/DonationDetails";
+import Statistics from "./components/Statistics/Statistics";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +20,18 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/my-donation",
+        element: <MyDonation></MyDonation>,
+      },
+      {
+        path: "/donation/:donationId",
+        element: <DonationDetails></DonationDetails>,
+      },
+      {
+        path: "/statistics",
+        element: <Statistics></Statistics>,
       },
     ],
   },
