@@ -6,117 +6,129 @@
     "img": "../src/assets/Health.png",
     "description": "Providing essential medical supplies to clinics in rural areas to ensure that everyone has access to basic healthcare. This includes bandages, antiseptics, diagnostic tools, and more to help medical professionals offer the best care possible.",
     "donation_amount": 5000,
-    "color_primary": "#FF5733",
-    "color_secondary": "#FF8D66"
+    "color_primary": "#007BFF",
+    "color_secondary": "#85C1E9",
+    "color_tertiary": "#D4E6F1"
   },
   {
     "id": 2,
-    "donation_title": "Scholarships for Underprivileged Students",
-    "donation_category": "Education",
-    "img": "../src/assets/Education.png",
-    "description": "Providing scholarships to underprivileged students to continue their education. This initiative aims to support talented young individuals who face financial challenges, helping them to achieve their academic goals and secure a brighter future.",
-    "donation_amount": 10000,
-    "color_primary": "#4CAF50",
-    "color_secondary": "#80E27E"
-  },
-  {
-    "id": 3,
-    "donation_title": "Warm Clothes for Winter",
-    "donation_category": "Clothing",
-    "img": "../src/assets/Clothing.png",
-    "description": "Providing warm clothes to families in need during the winter season. This includes jackets, sweaters, scarves, gloves, and hats to help protect individuals from the harsh cold, ensuring they stay warm and healthy.",
-    "donation_amount": 2500,
-    "color_primary": "#2196F3",
-    "color_secondary": "#64B5F6"
-  },
-  {
-    "id": 4,
     "donation_title": "Food Packages for Families in Need",
     "donation_category": "Food",
     "img": "../src/assets/Food.png",
     "description": "Providing food packages to families struggling to make ends meet. Each package contains nutritious items such as rice, beans, canned vegetables, and other essentials to ensure families do not go hungry and can maintain a balanced diet.",
     "donation_amount": 4000,
-    "color_primary": "#FF9800",
-    "color_secondary": "#FFB74D"
+    "color_primary": "#E67E22",
+    "color_secondary": "#F7C6A3",
+    "color_tertiary": "#FDECE3"
+  },
+  {
+    "id": 3,
+    "donation_title": "Scholarships for Underprivileged Students",
+    "donation_category": "Education",
+    "img": "../src/assets/Education.png",
+    "description": "Providing scholarships to underprivileged students to continue their education. This initiative aims to support talented young individuals who face financial challenges, helping them to achieve their academic goals and secure a brighter future.",
+    "donation_amount": 10000,
+    "color_primary": "#28A745",
+    "color_secondary": "#A9DFBF",
+    "color_tertiary": "#D4EFDF"
+  },
+  {
+    "id": 4,
+    "donation_title": "Warm Clothes for Winter",
+    "donation_category": "Clothing",
+    "img": "../src/assets/Clothing.png",
+    "description": "Providing warm clothes to families in need during the winter season. This includes jackets, sweaters, scarves, gloves, and hats to help protect individuals from the harsh cold, ensuring they stay warm and healthy.",
+    "donation_amount": 2500,
+    "color_primary": "#17A2B8",
+    "color_secondary": "#B3E0E6",
+    "color_tertiary": "#E0F7FA"
   },
   {
     "id": 5,
-    "donation_title": "Vaccination Program for Children",
-    "donation_category": "Health",
-    "img": "../src/assets/Health.png",
-    "description": "Ensuring all children in the community receive necessary vaccinations. This program aims to protect children from preventable diseases, contributing to healthier future generations and reducing the risk of outbreaks in communities.",
-    "donation_amount": 3000,
-    "color_primary": "#FF5733",
-    "color_secondary": "#FF8D66"
-  },
-  {
-    "id": 6,
-    "donation_title": "School Supplies for Children",
-    "donation_category": "Education",
-    "img": "../src/assets/Education.png",
-    "description": "Providing essential school supplies to children in need. This includes backpacks, notebooks, pens, pencils, and other learning materials to help students succeed in their studies and participate fully in their education.",
-    "donation_amount": 1500,
-    "color_primary": "#4CAF50",
-    "color_secondary": "#80E27E"
-  },
-  {
-    "id": 7,
-    "donation_title": "School Uniforms for Children",
-    "donation_category": "Clothing",
-    "img": "../src/assets/Clothing.png",
-    "description": "Providing school uniforms to children who cannot afford them. Uniforms help promote a sense of equality and belonging among students, allowing them to focus on their education without the burden of financial stress.",
-    "donation_amount": 1200,
-    "color_primary": "#2196F3",
-    "color_secondary": "#64B5F6"
-  },
-  {
-    "id": 8,
     "donation_title": "Community Soup Kitchen",
     "donation_category": "Food",
     "img": "../src/assets/Food.png",
     "description": "Supporting a community soup kitchen to feed the hungry. This initiative aims to provide hot meals to individuals and families who are experiencing food insecurity, offering them not only nutrition but also a sense of community and support.",
     "donation_amount": 3500,
-    "color_primary": "#FF9800",
-    "color_secondary": "#FFB74D"
+    "color_primary": "#E67E22",
+    "color_secondary": "#F7C6A3",
+    "color_tertiary": "#FDECE3"
   },
   {
-    "id": 9,
-    "donation_title": "Mental Health Awareness Campaign",
-    "donation_category": "Health",
-    "img": "../src/assets/Health.png",
-    "description": "Raising awareness and providing resources for mental health support. This campaign focuses on educating the public about mental health issues, reducing stigma, and providing access to counseling and other mental health services.",
-    "donation_amount": 2000,
-    "color_primary": "#FF5733",
-    "color_secondary": "#FF8D66"
-  },
-  {
-    "id": 10,
-    "donation_title": "Building Libraries in Rural Areas",
-    "donation_category": "Education",
-    "img": "../src/assets/Education.png",
-    "description": "Constructing libraries to promote reading and education in rural areas. These libraries will provide access to books, educational resources, and internet facilities, helping to bridge the education gap and inspire lifelong learning.",
-    "donation_amount": 8000,
-    "color_primary": "#4CAF50",
-    "color_secondary": "#80E27E"
-  },
-  {
-    "id": 11,
+    "id": 6,
     "donation_title": "Clothing Drive for Homeless",
     "donation_category": "Clothing",
     "img": "../src/assets/Clothing.png",
     "description": "Collecting and distributing clothes to homeless individuals. This drive aims to provide clean, warm clothing to those in need, helping them to stay healthy and maintain dignity during challenging times.",
     "donation_amount": 3000,
-    "color_primary": "#2196F3",
-    "color_secondary": "#64B5F6"
+    "color_primary": "#17A2B8",
+    "color_secondary": "#B3E0E6",
+    "color_tertiary": "#E0F7FA"
   },
   {
-    "id": 12,
+    "id": 7,
+    "donation_title": "Vaccination Program for Children",
+    "donation_category": "Health",
+    "img": "../src/assets/Health.png",
+    "description": "Ensuring all children in the community receive necessary vaccinations. This program aims to protect children from preventable diseases, contributing to healthier future generations and reducing the risk of outbreaks in communities.",
+    "donation_amount": 3000,
+    "color_primary": "#007BFF",
+    "color_secondary": "#85C1E9",
+    "color_tertiary": "#D4E6F1"
+  },
+  {
+    "id": 8,
+    "donation_title": "Building Libraries in Rural Areas",
+    "donation_category": "Education",
+    "img": "../src/assets/Education.png",
+    "description": "Constructing libraries to promote reading and education in rural areas. These libraries will provide access to books, educational resources, and internet facilities, helping to bridge the education gap and inspire lifelong learning.",
+    "donation_amount": 8000,
+    "color_primary": "#28A745",
+    "color_secondary": "#A9DFBF",
+    "color_tertiary": "#D4EFDF"
+  },
+  {
+    "id": 9,
     "donation_title": "Emergency Food Relief",
     "donation_category": "Food",
     "img": "../src/assets/Food.png",
     "description": "Providing emergency food relief to disaster-affected areas. This includes delivering ready-to-eat meals, water, and other essential supplies to those impacted by natural disasters or other emergencies, ensuring they have immediate support.",
     "donation_amount": 6000,
-    "color_primary": "#FF9800",
-    "color_secondary": "#FFB74D"
+    "color_primary": "#E67E22",
+    "color_secondary": "#F7C6A3",
+    "color_tertiary": "#FDECE3"
+  },
+  {
+    "id": 10,
+    "donation_title": "Mental Health Awareness Campaign",
+    "donation_category": "Health",
+    "img": "../src/assets/Health.png",
+    "description": "Raising awareness and providing resources for mental health support. This campaign focuses on educating the public about mental health issues, reducing stigma, and providing access to counseling and other mental health services.",
+    "donation_amount": 2000,
+    "color_primary": "#007BFF",
+    "color_secondary": "#85C1E9",
+    "color_tertiary": "#D4E6F1"
+  },
+  {
+    "id": 11,
+    "donation_title": "School Supplies for Children",
+    "donation_category": "Education",
+    "img": "../src/assets/Education.png",
+    "description": "Providing essential school supplies to children in need. This includes backpacks, notebooks, pens, pencils, and other learning materials to help students succeed in their studies and participate fully in their education.",
+    "donation_amount": 1500,
+    "color_primary": "#28A745",
+    "color_secondary": "#A9DFBF",
+    "color_tertiary": "#D4EFDF"
+  },
+  {
+    "id": 12,
+    "donation_title": "School Uniforms for Children",
+    "donation_category": "Clothing",
+    "img": "../src/assets/Clothing.png",
+    "description": "Providing school uniforms to children who cannot afford them. Uniforms help promote a sense of equality and belonging among students, allowing them to focus on their education without the burden of financial stress.",
+    "donation_amount": 1200,
+    "color_primary": "#17A2B8",
+    "color_secondary": "#B3E0E6",
+    "color_tertiary": "#E0F7FA"
   }
 ]
