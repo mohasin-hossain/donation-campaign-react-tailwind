@@ -19,7 +19,7 @@ const Donation = ({ donation }) => {
   return (
     <div
       onClick={handleDonationDetails}
-      className="rounded-md drop-shadow-md"
+      className="rounded-md drop-shadow-md cursor-pointer"
       style={{
         "--color-primary": color_primary,
         "--color-secondary": color_secondary,

@@ -12,7 +12,6 @@ const DonationList = () => {
 
   return (
     <div className="container mx-auto">
-      <h1>DonationList {donations.length}</h1>
       <div className="grid grid-cols-4 gap-8">
         {donations.map((donation, idx) => (
           <Donation key={idx} donation={donation}></Donation>

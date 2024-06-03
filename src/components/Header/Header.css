@@ -2,7 +2,7 @@
     transition: all .1s;
 }
 
-#navbar a.active {
+#navbar a.active:not(.logo) {
   background-color: #ff444a48;
   color: #ff444a;
   font-weight: 700;

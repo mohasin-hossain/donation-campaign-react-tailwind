@@ -18,7 +18,7 @@ const Header = () => {
   );
 
   return (
-    <nav id="navbar" className="navbar bg-transparent drop-shadow-md">
+    <nav id="navbar" className="navbar bg-base-100 drop-shadow-md sticky top-0 z-[10]">
       <div className="container mx-auto">
         <div className="navbar-start flex items-center">
           <div className="dropdown">
@@ -45,9 +45,9 @@ const Header = () => {
               {links}
             </ul>
           </div>
-          <div to="/" className="btn btn-ghost text-xl">
+          <NavLink to="/" className="logo btn btn-ghost text-xl">
             <img className=" w-36" src={logo} alt="" />
-          </div>
+          </NavLink>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal flex gap-6">{links}</ul>
