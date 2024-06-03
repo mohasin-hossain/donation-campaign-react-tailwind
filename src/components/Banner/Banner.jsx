@@ -2,7 +2,7 @@ import Header from "../Header/Header";
 
 const Banner = () => {
   return (
-    <div className="flex flex-col items-center py-20 bg-[linear-gradient(to_top,rgba(255,255,255,1),rgba(255,255,255,0.4)),url('./assets/banner.png')] bg-cover">
+    <div className="flex flex-col items-center py-20 bg-[linear-gradient(to_top,rgba(255,255,255,1),rgba(255,255,255,0.4)),url('./assets/banner.png')] bg-cover px-10">
       <h1 className="text-3xl md:text-4xl lg:text-6xl">
         I Grow By Helping People In Need
       </h1>

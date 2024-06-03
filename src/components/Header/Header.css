@@ -1,15 +1,15 @@
 #navbar a {
-    transition: all .1s;
+  transition: all 0.1s;
+  font-weight: 700;
 }
 
 #navbar a.active:not(.logo) {
   background-color: #ff444a48;
   color: #ff444a;
-  font-weight: 700;
 }
 
 #navbar a:hover {
-    outline: none;
+  outline: none;
 }
 
 #navbar a:active {

@@ -23,6 +23,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/my-donation",
+        loader: () => fetch("../public/donation.json"),
         element: <MyDonation></MyDonation>,
       },
       {

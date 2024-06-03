@@ -11,8 +11,8 @@ const DonationList = () => {
   }, []);
 
   return (
-    <div className="container mx-auto">
-      <div className="grid grid-cols-4 gap-8">
+    <div className="container mx-auto px-10">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {donations.map((donation, idx) => (
           <Donation key={idx} donation={donation}></Donation>
         ))}
