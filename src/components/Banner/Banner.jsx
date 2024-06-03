@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 const Banner = ({ handleSearch, handleSubmit }) => {
   return (
     <div className="flex flex-col items-center py-20 bg-[linear-gradient(to_top,rgba(255,255,255,1),rgba(255,255,255,0.4)),url('./assets/banner.png')] bg-cover px-10">
-      <h1 className="text-3xl md:text-4xl lg:text-6xl">
+      <h1 className="text-4xl text-center lg:text-6xl">
         I Grow By Helping People In Need
       </h1>
-      <p className="text-center py-8 max-w-3xl text-xl font-thin">
+      <p className="text-center py-8 max-w-3xl text-xs md:text-xl font-thin">
         In the dance of life, extending a hand to those in need becomes a
         graceful waltz of humanity. Each act of kindness is a verse in the
         poetry of existence, weaving threads of compassion and understanding. By
@@ -19,7 +19,7 @@ const Banner = ({ handleSearch, handleSubmit }) => {
         <input
           type="text"
           placeholder="Search here..."
-          className="p-3 outline-none rounded-md w-80"
+          className="p-3 outline-none rounded-md w-64 md:w-80"
           name="searchInput"
           onChange={handleSearch}
         />

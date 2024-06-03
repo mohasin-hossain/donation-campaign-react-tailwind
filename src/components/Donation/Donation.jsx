@@ -28,7 +28,7 @@ const Donation = ({ donation }) => {
         backgroundColor: "var(--color-tertiary)",
       }}
     >
-      <img src={img} alt="" />
+      <img src={img} className="w-full" alt="" />
       <div className=" p-4 flex flex-col">
         <span
           className="px-2 py-1 rounded-md self-start"
