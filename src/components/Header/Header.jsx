@@ -18,9 +18,9 @@ const Header = () => {
   );
 
   return (
-    <nav id="navbar" className="navbar bg-base-100 drop-shadow-md">
+    <nav id="navbar" className="navbar bg-transparent drop-shadow-md">
       <div className="container mx-auto">
-        <div className="navbar-start">
+        <div className="navbar-start flex items-center">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
