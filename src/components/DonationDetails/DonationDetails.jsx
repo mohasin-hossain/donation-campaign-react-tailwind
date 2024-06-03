@@ -1,5 +1,7 @@
 import { Link, useLoaderData, useParams } from "react-router-dom";
 import { RiArrowGoBackFill } from "react-icons/ri";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const DonationDetails = () => {
   const { donationId } = useParams();
@@ -10,12 +12,15 @@ const DonationDetails = () => {
   const {
     color_primary,
     color_secondary,
-    color_tertiary,
     donation_title,
     description,
     donation_amount,
     img,
   } = specificDonationDetails;
+
+  const handleDonate = () => {
+    toast.success(`Thanks for the Donation!`);
+  };
 
   return (
     <div
@@ -35,6 +40,7 @@ const DonationDetails = () => {
           <button
             style={{ backgroundColor: "var(--color-primary)" }}
             className="btn border-none text-white"
+            onClick={handleDonate}
           >
             Donate ${donation_amount}
           </button>
@@ -51,6 +57,18 @@ const DonationDetails = () => {
           Go Back <RiArrowGoBackFill />
         </button>
       </Link>
+      <ToastContainer
+        position="bottom-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
     </div>
   );
 };
