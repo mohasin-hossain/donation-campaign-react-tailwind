@@ -3,6 +3,7 @@ import { RiArrowGoBackFill } from "react-icons/ri";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { saveToLocalStorage } from "../../utilities/localStorage";
+import { Helmet } from "react-helmet-async";
 
 const DonationDetails = () => {
   const { donationId } = useParams();
@@ -17,6 +18,7 @@ const DonationDetails = () => {
     donation_title,
     description,
     donation_amount,
+    donation_category,
     img,
   } = specificDonationDetails;
 
@@ -33,6 +35,9 @@ const DonationDetails = () => {
       }}
       className="container mx-auto px-10 flex flex-col items-center"
     >
+      <Helmet>
+        <title>{donation_category} | Donation Details</title>
+      </Helmet>
       <div className="relative w-full flex flex-col items-center">
         <img
           className="w-full md:w-1/2 my-4"

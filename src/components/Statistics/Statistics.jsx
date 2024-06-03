@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { PieChart, Pie, Tooltip, Legend, Cell, ResponsiveContainer } from 'recharts';
 import { getStoredData } from '../../utilities/localStorage';
+import { Helmet } from 'react-helmet-async';
 
 const Statistics = () => {
     const [numberOfDonation, setNumberOfDonation] = useState();
@@ -32,6 +33,9 @@ const Statistics = () => {
 
   return (
     <div className='flex items-center justify-center w-full h-full'>
+      <Helmet>
+        <title>Donation Statistics</title>
+      </Helmet>
       <ResponsiveContainer width="100%" height={500}>
         <PieChart width={800} height={400}>
           <Pie

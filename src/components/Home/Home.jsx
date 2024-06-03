@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Banner from "../Banner/Banner";
 import DonationList from "../DonationList/DonationList";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   const [donations, setDonations] = useState([]);
@@ -35,6 +36,9 @@ const Home = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Donation Campaign | Home</title>
+      </Helmet>
       <Banner handleSubmit={handleSubmit} handleSearch={handleSearch}></Banner>
       <DonationList displayDonations={displayDonations}></DonationList>
     </div>

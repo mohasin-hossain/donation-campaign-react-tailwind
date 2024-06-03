@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getStoredData } from "../../utilities/localStorage";
 import MyDonationItem from "../MyDonationItem/MyDonationItem";
+import { Helmet } from "react-helmet-async";
 
 const MyDonation = () => {
   const [myDonations, setMyDonations] = useState([]);
@@ -17,6 +18,9 @@ const MyDonation = () => {
 
   return (
     <div className="container mx-auto px-10 py-20">
+      <Helmet>
+        <title>My Donations</title>
+      </Helmet>
       <div className="grid md:grid-cols-2 gap-8">
         {myDonations.length ? (
           myDonations.map((donation, idx) => (
