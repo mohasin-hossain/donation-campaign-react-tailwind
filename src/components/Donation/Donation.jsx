@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 const Donation = ({ donation }) => {
   const {
     id,
@@ -8,9 +10,15 @@ const Donation = ({ donation }) => {
     color_secondary,
     color_tertiary,
   } = donation;
+  const navigate = useNavigate();
+
+  const handleDonationDetails = () => {
+    navigate(`/donation/${id}`);
+  };
 
   return (
     <div
+      onClick={handleDonationDetails}
       className="rounded-md"
       style={{
         "--color-primary": color_primary,
