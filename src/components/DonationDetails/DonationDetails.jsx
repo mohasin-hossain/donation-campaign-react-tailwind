@@ -2,6 +2,7 @@ import { Link, useLoaderData, useParams } from "react-router-dom";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { saveToLocalStorage } from "../../utilities/localStorage";
 
 const DonationDetails = () => {
   const { donationId } = useParams();
@@ -10,6 +11,7 @@ const DonationDetails = () => {
     (donation) => donation.id === parseInt(donationId)
   );
   const {
+    id,
     color_primary,
     color_secondary,
     donation_title,
@@ -18,7 +20,8 @@ const DonationDetails = () => {
     img,
   } = specificDonationDetails;
 
-  const handleDonate = () => {
+  const handleDonate = (id) => {
+    saveToLocalStorage(parseInt(id));
     toast.success(`Thanks for the Donation!`);
   };
 
@@ -40,7 +43,7 @@ const DonationDetails = () => {
           <button
             style={{ backgroundColor: "var(--color-primary)" }}
             className="btn border-none text-white"
-            onClick={handleDonate}
+            onClick={() => handleDonate(id)}
           >
             Donate ${donation_amount}
           </button>
