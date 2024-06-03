@@ -16,14 +16,14 @@ const MyDonation = () => {
   }, []);
 
   return (
-    <div className="container mx-auto py-20 px-10">
+    <div className="container mx-auto px-10 py-20">
       <div className="grid md:grid-cols-2 gap-8">
         {myDonations.length ? (
           myDonations.map((donation, idx) => (
             <MyDonationItem key={idx} donation={donation}></MyDonationItem>
           ))
         ) : (
-          <h3 className="text-center col-span-2 mt-20 text-2xl md:text-4xl p-4 bg-base-200 shadow-lg text-[#ff444a] rounded-lg">You have not donated yet! Please do some donations. Thanks.</h3>
+          <h3 className="text-center col-span-2 text-2xl md:text-4xl p-4 bg-base-200 shadow-lg text-[#ff444a] rounded-lg mt-20">You have not donated yet! Please do some donations. Thanks.</h3>
         )}
       </div>
     </div>
