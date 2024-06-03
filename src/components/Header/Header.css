@@ -1,0 +1,17 @@
+#navbar a {
+    transition: all .2s;
+}
+
+#navbar a.active {
+  background-color: #ff444a48;
+  color: #ff444a;
+  font-weight: 700;
+}
+
+#navbar a:hover {
+    outline: none;
+}
+
+#navbar a:active {
+  background-color: transparent;
+}
