@@ -1,4 +1,5 @@
 import Donation from "../Donation/Donation";
+import PropTypes from "prop-types";
 
 const DonationList = ({ displayDonations }) => {
   return (
@@ -10,6 +11,10 @@ const DonationList = ({ displayDonations }) => {
       </div>
     </div>
   );
+};
+
+DonationList.propTypes = {
+  displayDonations: PropTypes.func.isRequired,
 };
 
 export default DonationList;

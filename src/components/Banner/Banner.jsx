@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 
 const Banner = ({ handleSearch, handleSubmit }) => {
   return (
@@ -31,6 +31,11 @@ const Banner = ({ handleSearch, handleSubmit }) => {
       </form>
     </div>
   );
+};
+
+Banner.propTypes = {
+  handleSearch: PropTypes.func.isRequired,
+  handleSubmit: PropTypes.func.isRequired,
 };
 
 export default Banner;

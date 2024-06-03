@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const Donation = ({ donation }) => {
   const {
@@ -44,6 +45,10 @@ const Donation = ({ donation }) => {
       </div>
     </div>
   );
+};
+
+Donation.propTypes = {
+  donation: PropTypes.object.isRequired,
 };
 
 export default Donation;
